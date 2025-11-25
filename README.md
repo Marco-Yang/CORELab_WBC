@@ -3,7 +3,7 @@
 conda create -n wbc5418 python=3.8
 conda activate wbc5418
 
-cd 5418Project
+cd CORELab_WBC
 
 pip install torch torchvision torchaudio
 
@@ -53,7 +53,7 @@ python legged_gym/scripts/train_continue.py \
 
 ##  Play
 Only need to specify `--exptid`. The parser will automatically find corresponding runs.
-Assuming the current path is ~/5418Project
+Assuming the current path is ~/CORELab_WBC
 
 ```bash
 
