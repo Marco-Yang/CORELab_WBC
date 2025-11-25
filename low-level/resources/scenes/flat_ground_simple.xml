@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<mujoco model="flat_ground">
+  <compiler angle="radian" coordinate="local" inertiafromgeom="true"/>
+  
+  <option gravity="0 0 -9.81" integrator="RK4" timestep="0.005"/>
+  
+  <worldbody>
+    <!-- Simple flat ground plane -->
+    <geom name="ground" type="plane" size="100 100 1" rgba="0.8 0.9 0.8 1" friction="1 0.005 0.0001"/>
+    
+    <!-- Lighting -->
+    <light directional="true" ambient="0.2 0.2 0.2" diffuse="0.8 0.8 0.8" specular="0.3 0.3 0.3" 
+           castshadow="false" pos="0 0 4" dir="0 0 -1"/>
+  </worldbody>
+</mujoco>
