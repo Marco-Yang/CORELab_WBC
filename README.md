@@ -1,9 +1,9 @@
 ## Setup
 ```bash
-conda create -n wbc5418 python=3.8
-conda activate wbc5418
+conda create -n WBCRL python=3.8
+conda activate WBCRL
 
-cd CORELab_WBC
+cd WBC_RL
 
 pip install torch torchvision torchaudio
 
