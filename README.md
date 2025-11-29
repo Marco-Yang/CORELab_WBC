@@ -1,7 +1,7 @@
 ## Setup
 ```bash
-conda create -n WBCRL python=3.8
-conda activate WBCRL
+conda create -n CORELab_WBC python=3.8
+conda activate CORELab_WBC
 
 cd CORELab_WBC
 
