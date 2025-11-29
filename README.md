@@ -3,7 +3,7 @@
 conda create -n WBCRL python=3.8
 conda activate WBCRL
 
-cd WBC_RL
+cd CORELab_WBC
 
 pip install torch torchvision torchaudio
 
